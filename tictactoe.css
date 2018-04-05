@@ -1,0 +1,154 @@
+body
+{
+    background-color: dimgray;
+    color: white;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.title
+{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+#turnpanel
+{
+    width: 100%;
+    margin-bottom: 40px;  
+    padding-left: 43%;
+}
+    #turnpanel p
+    {
+        font-size: 36px;
+    }
+
+.container
+{
+    width: 100%;
+    margin-bottom: 40px;
+    
+}
+
+    #top-container
+    {
+        display: table;
+        width: 50%;
+        padding-left: 43%;
+    }
+
+        #top-left
+        {
+            width: 50px;
+            height: 50px;
+            border-right: 5px solid white;
+            border-bottom: 5px solid white;
+            float: left;
+
+        }
+        #top-center
+        {
+            width: 50px;
+            height: 50px;
+            border-right: 5px solid white;
+            border-bottom: 5px solid white;
+            border-left: 5px solid white;
+            display: inline-block;
+            
+
+        }
+        #top-right
+        {
+            width: 50px;
+            height: 50px;
+            border-bottom: 5px solid white;
+            border-left: 5px solid white;
+            display: inline-block;
+        }
+
+    #middle-container
+    {
+        display: table;
+        width: 50%;
+        padding-left: 43%;
+    }
+        #middle-left
+        {
+            width: 50px;
+            height: 50px;
+            border-right: 5px solid white;
+            border-bottom: 5px solid white;
+            border-top: 5px solid white;
+            float: left;
+
+        }
+        #center
+        {
+            width: 50px;
+            height: 50px;
+            border: 5px solid white;
+            display: inline-block;
+            
+            
+
+        }
+        #middle-right
+        {
+            width: 50px;
+            height: 50px;
+            border-left: 5px solid white;
+            border-bottom: 5px solid white;
+            border-top: 5px solid white;
+            display: inline-block;
+        }  
+
+    #bottom-container
+    {
+        display: table;
+        width: 50%;
+        padding-left: 43%;
+    }
+        #bottom-left
+        {
+            width: 50px;
+            height: 50px;
+            border-right: 5px solid white;
+            border-top: 5px solid white;
+            float: left;
+
+        }
+        #bottom-center
+        {
+            width: 50px;
+            height: 50px;
+            border-right: 5px solid white;
+            border-top: 5px solid white;
+            border-left: 5px solid white;
+            display: inline-block;
+            
+
+        }
+        #bottom-right
+        {
+            width: 50px;
+            height: 50px;
+            border-top: 5px solid white;
+            border-left: 5px solid white;
+            display: inline-block;
+        }
+
+#winpanel 
+{
+    width: 100%;
+}
+    #winpanel p
+    {
+        padding-left: 43%;
+        font-size: 36px;
+    }
